@@ -18,10 +18,8 @@ class Solution:
         return self.checkSymmetry(root.left, root.right)
 
     def checkSymmetry(self, left: Optional[TreeNode], right: Optional[TreeNode]) -> bool:
-        if not left and not right:
-            return True
-        if not left or not right:
-            return False
+        if left is None or right is None:
+            return left is right
         if left.val != right.val:
             return False
 

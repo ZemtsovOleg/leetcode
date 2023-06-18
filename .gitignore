@@ -1,4 +1,15 @@
-/sundry
+# Editors
+.vscode/
+.idea/
+
+# Mac/OSX
 .DS_Store
-/.idea
-/venv
+
+# Windows
+Thumbs.db
+
+# Environments
+venv/
+env/
+
+__pycache__/
